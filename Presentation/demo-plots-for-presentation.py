@@ -229,7 +229,7 @@ edu_cat = ["ENRPRI", "ENRSEC", "PUPTCH"]
 hlt_cat = ["ATBRTH", "DPTCOV", "PHYSPC", "FAMPLN", "CSTUNT"]
 inf_cat = ["AQELEC", "DRKWAT", "SANSRV", "INTRNT", "TRNETW"]
 rts_cat = ["RULELW", "PUBSRV", "EDEMOC", "UNCONV", "GENDEQ"]
-saf_cat = ["MURDER", "CYBSEC", "SECAPP", "INCARC"]
+saf_cat = ["MURDER", "CYBSEC", "SECAPP", "PRISON"]
 glb_cat = ["ARMEXP", "MILEXP", "RDFUND", "FORAID"]
 
 
