@@ -10,9 +10,9 @@ import math
 import matplotlib.pyplot as plt
 from sys import path
 path.append('../')
-from database_connector.SSPIDatabaseConnector import SSPIDatabaseConnector
+from connector.SSPIDatabaseConnector import SSPIDatabaseConnector
 sspi = SSPIDatabaseConnector()
-main_data_json = sspi.get_data_local("/api/v1/query/sspi_main_data_v3").json()
+main_data_json = sspi.call("/api/v1/query/sspi_main_data_v3").json()
 
 # |%%--%%| <pKFvCEQYLF|QMWRRIHdoc>
 r"""°°°
